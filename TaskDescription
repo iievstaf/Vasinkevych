@@ -1,0 +1,12 @@
+Project's main idea is to have ability to schedule visit to doctor in hospital.
+
+Requirements for version 1.0
+1. We should develop application(version 1.0) using next use case:
+  1. Login as user (save login information in file);
+  2. Select a doctor:
+    2.1. Through doctors specialization;
+    2.2. Using doctor's name or ID.
+  3. Select free day and time;
+  4. Activate your schedule record;
+  
+Use collections to manipulate with data;
