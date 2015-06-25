@@ -1,18 +1,20 @@
 
-public class Doctor extends Person{
-	private String specialisation;
+public final class Doctor extends Person{
 	
-	public Doctor(String alogin, String apass, int id, String alastName,
-			String afirstName,String specialisation) {
-		super(alogin, apass, id, alastName, afirstName);
+	
+	private String specialisation;
+
+	
+	public Doctor(String login, String pass, int id, String lastName,
+			String firstName,String specialisation) {
+		super(login, pass, id, lastName, firstName);
 		this.specialisation = specialisation;
 		
-		// TODO Auto-generated constructor stub
 	}
 	public String getSpecialisation() {
 		return specialisation;
 	}
-	public void setSpecialisation (){
+	public void setSpecialisation (String specialisation){
 		this.specialisation = specialisation;
 	}
 }

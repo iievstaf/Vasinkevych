@@ -8,12 +8,12 @@ public abstract class Person  {
 	
 	private static int nextId = 1; //(?)
 	
-public Person (String alogin, String apass, int id, String alastName, String afirstName ) {
-	login = alogin;
-	pass = apass;
-	id = 0;
-	lastName = alastName;
-	firstName = afirstName;
+public Person (String login, String pass, int id, String lastName, String firstName ) {
+	this.login = login;
+	this.pass = pass;
+	this.id = 0;
+	this.lastName = lastName;
+	this.firstName = firstName;
 
 }
 public String getLogin (){
@@ -56,7 +56,3 @@ public static int getNextId(){
 }
 
 }
-
-
-
-
